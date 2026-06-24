@@ -6,7 +6,7 @@
   <title>เข้าสู่ระบบ – SharePay</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <style>
     .auth-page {
       min-height: 100dvh;
@@ -387,7 +387,7 @@
 
           <h2 class="auth-form-title">ยินดีต้อนรับกลับ 👋</h2>
           <p class="auth-form-sub">
-            ยังไม่มีบัญชี? <a href="/register.html">สมัครสมาชิกฟรี</a>
+            ยังไม่มีบัญชี? <a href="pages/register.html">สมัครสมาชิกฟรี</a>
           </p>
         </div>
 
@@ -486,7 +486,7 @@
 
   <!-- Firebase -->
   <script type="module">
-    import { loginUser, resetPassword } from '/js/auth.js';
+    import { loginUser, resetPassword } from 'js/auth.js';
 
     // Toast helper
     window.SharePay = {
@@ -555,9 +555,9 @@
 
         // Redirect based on role
         if (userData?.role === 'admin') {
-          window.location.href = '/pages/admin.html';
+          window.location.href = 'pages/admin.html';
         } else {
-          window.location.href = '/pages/member.html';
+          window.location.href = 'pages/member.html';
         }
       } catch (error) {
         loginBtn.classList.remove('loading');
