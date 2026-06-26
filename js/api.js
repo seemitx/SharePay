@@ -8,7 +8,7 @@
 // 🔧 ตั้งค่า URL ของ Google Apps Script Web App
 // วิธีดู URL: Apps Script → Deploy → Manage deployments → Web App URL
 // =============================================
-const APPS_SCRIPT_URL = 'YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbymjEe01FWeb-X_JH2OLiy-AU9lFDYtL7RkmDIZkH5hbZLAeCbyRMECwBlMgmqnNnzv/exec';
 
 /**
  * ดึงข้อมูลค่าใช้จ่ายทั้งหมดจาก Google Sheets
